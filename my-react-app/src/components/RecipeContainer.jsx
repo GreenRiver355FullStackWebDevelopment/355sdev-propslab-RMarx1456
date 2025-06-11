@@ -1,10 +1,10 @@
 import Recipe from "./Recipe.jsx"
 
-function RecipeContainer(props) {
+function RecipeContainer({ recipes }) {
     return (
         <>
         {
-            props.map((recipe) => (
+            recipes.map((recipe) => (
                 <Recipe prop={recipe} />
             ))
         }

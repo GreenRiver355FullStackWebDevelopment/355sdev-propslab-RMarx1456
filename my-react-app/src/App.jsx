@@ -1,12 +1,13 @@
 import './App.css'
-import data from "./data.js";
+import { recipes as recipes } from "./data.js";
 
 import RecipeContainer from "./components/RecipeContainer.jsx";
 
 function App() {
   return (
     <>
-      <RecipeContainer props={data} />
+      <h1>Recipes</h1>
+      <RecipeContainer recipes={recipes} />
     </>
   )
 }
