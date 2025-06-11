@@ -1,3 +1,7 @@
+//Not sure if repeatedly importing css files in each component is a best practice or not. My styling definitely isn't going to be very adept.
+import './Recipe.css';
+
+
 function Recipe({ prop }) {
     return (
         <>

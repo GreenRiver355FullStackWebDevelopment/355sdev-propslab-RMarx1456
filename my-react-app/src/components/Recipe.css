@@ -1,0 +1,13 @@
+h3 {
+    text-align: left;
+    text-decoration: underline;
+}
+ul {
+    text-align: left;
+}
+li {
+    text-align: left;
+}
+ul > li {
+    list-style-type: "-";
+}
